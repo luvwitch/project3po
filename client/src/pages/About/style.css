@@ -1,18 +1,6 @@
-h1{
-    font-style: italic;
-  font:bold
-
-}
-h2{
-    font-style: italic;
-}
-p{
-    font-size: medium;
-    font-style: italic;
-}
-
-.uicard{
-    border-style: solid;
-    border-color: white;
-    border-width: 40px;
-}
+.developer {
+    max-height: 6rem;
+    max-width: 7rem;
+    border-radius: 35px;
+    float: center;
+  }
