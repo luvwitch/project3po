@@ -21,7 +21,7 @@
 } */
 
 code {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat', sans-serif;  
 }
 
 * {
@@ -93,7 +93,6 @@ div[data-reactroot] {
     font-size: 3.5em;
     background-color: rgb(247, 246, 242);
     padding: .6em, .3em;
-    margin: .6em;
-    
+    margin: .6em;    
     border-radius: 2em;
   }  
