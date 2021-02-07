@@ -25,8 +25,8 @@ export default function Footer(){
     return(
     <div className="Footer">    
         <div className="container">
-            <p className="footerText" id={newStyle}>Early Bird, 2021</p>
-            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+          <p className="footerText" id={newStyle}>Early Bird, 2021</p>            
         </div>
     </div>    
     )
