@@ -27,10 +27,10 @@ Heroku deployed application: https://stormy-bayou-72071.herokuapp.com/
 
 ## Screenshots
 
-![Screenshot](screenshot\home.png)
-![Screenshot](screenshot\calendar.png)
+![Screenshot](https://github.com/luvwitch/project3po/blob/main/screenshot/home.png)
+![Screenshot](https://github.com/luvwitch/project3po/blob/main/screenshot/calendar.png)
 
-![image](screenshot\toDo.png)
+![image](https://github.com/luvwitch/project3po/blob/main/screenshot/toDo.png)
 
 
 
