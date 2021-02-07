@@ -27,44 +27,49 @@ export default function About(){
     return(
         <Container>
         <div className="page-container">
-            <div className={newStyle}>
-                    <Row>
-                        <div className="col-12" className={newerStyle}>
-                        <h1>About Page</h1>
-                                <br />
-                                <p> This application is designed to allow the user to integrate tasks, appointments, reminders and more into a calendar. This calendar will then remind the user of the items input at a desired interval and also helpshow the user how much time needs to be allocated to accomplish that task on time.</p>
-                                <br />
-                                <p> A lot of us struggle with time management. The goal of this application is to aid those in need of morestructure and guidance into managing their time, as well as, those who just simply want reminders to keepthemselves on track.</p>
-                                <br />      
-                            <div className="card" className={newStyle} id="newColor">
-                                <h5 className="card-header" className={newerStyle}>Meet the Creators!</h5>
-                                <div className="card-body">
-                                    <div className={newStyle} id="about-developers-text">
-                                    <div className= "row">
+            <div className={newStyle}>                    
+                <div className={newerStyle}>
+                    <Col size="md-12">
+                        <h1>Curious About Early Bird?</h1>
+                        <br />
+                        <p>Early Bird is designed to help you with time management. It integrates your google calendar to show you your big events (and lets you add them, too!) with external information like real-time traffic in your area and current weather so you can accurately plan ahead. No more leaving the house and suddenly realizing you need an extra 10 minutes because of a traffic jam!</p>
+                        <br />
+                        <p> A big struggle for many people is remembering all the minor things that can hold you up. Our convenient reminders page lets you add tasks to a list so you don't have to worry about forgetting something like grabbibg milk from the store, getting gas before work, or grabbing a sweater before you leave. We'll remember so you never forget!</p>
+                        <br /> 
+                    </Col>     
+                    <div className="card" className={newStyle} id="newColor">
+                        <h3 className="card-header" className={newerStyle}>Meet the Early Bird team!</h3>
+                         <div className="card-body">
+                            <div className={newStyle} id="about-developers-text">
+                                <Row>
+                                    <Col size="md-6">
+                                        <DevInfo DevPic={"https://avatars.githubusercontent.com/u/71345539?s=460&u=a726dbdbfd9076fe93775d98e1e199af37980b85&v=4"} DevName={"Tyler Dahlgren"} DevFact={"I am a 25 year old software developer currently enrolled in the UCLA coding Bootcamp."} EmailDev={"mailto:dahlgren15@gmail.com"} DevEmail={"dahlgren15@gmail.com"} DevGit={"https://github.com/tylerdahl123"}/>
+                                    </Col> 
+                                    <Col size="md-6">
+                                        <DevInfo DevPic={"https://avatars.githubusercontent.com/u/69021459?s=460&u=0864f5ffd1d6f54699f58544af63a9243375efc3&v=4"} DevName={"Alex Kelly"} DevFact={"Full Stack Web Developer, Lifelong Learner"} EmailDev={"mailto:itsalexkelly@gmail.com"} DevEmail={"itsalexkelly@gmail.com"} DevGit={"https://github.com/luvwitch"}/>
+                                    </Col>
+                                </Row>
 
-                                    <DevInfo DevPic={"https://avatars.githubusercontent.com/u/71345539?s=460&u=a726dbdbfd9076fe93775d98e1e199af37980b85&v=4"} DevName={"Tyler Dahlgren"} DevFact={"I am a 25 year old software developer currently enrolled in the UCLA coding Bootcamp."} EmailDev={"mailto:dahlgren15@gmail.com"} DevEmail={"dahlgren15@gmail.com"} DevGit={"https://github.com/tylerdahl123"}/>
-                                    <DevInfo DevPic={"https://avatars.githubusercontent.com/u/69021459?s=460&u=0864f5ffd1d6f54699f58544af63a9243375efc3&v=4"} DevName={"Alex Kelly"} DevFact={"Full Stack Web Developer, Lifelong Learner"} EmailDev={"mailto:itsalexkelly@gmail.com"} DevEmail={"itsalexkelly@gmail.com"} DevGit={"https://github.com/luvwitch"}/>
-                                      
-                                    </div>
+                                <Row>
+                                    <Col size="md-6">
+                                        <DevInfo DevPic={"https://avatars.githubusercontent.com/u/70187829?s=460&u=d32b9be03e9cd0a339e87ecb70cd573a554d62df&v=4"} DevName={"Tito Rivera"} DevFact={"Aspiring full-stack web developer currently attending UCLA's coding boot camp."} EmailDev={"mailto:titorivera0707@gmail.com"} DevEmail={"titorivera0707@gmail.com"} DevGit={"https://github.com/titorivera0707"}/>
+                                    </Col>
+                                    <Col size="md-6">
+                                        <DevInfo DevPic={"https://avatars.githubusercontent.com/u/72284343?s=460&u=900f7b4afc45e93392d8ef52791d93978a2c2653&v=4"} DevName={"Kyle Gibson"} DevFact={"I am currently learning full-stack web development at UCLAs coding boot camp program."} EmailDev={"mailto:kyle.gibson22@yahoo.com"} DevEmail={"kyle.gibson22@yahoo.com"} DevGit={"https://github.com/kyle-gibson"} />
+                                    </Col>
+                                </Row>
 
-                                    <div className= "row mt-4">
-                                    <DevInfo DevPic={"https://avatars.githubusercontent.com/u/70187829?s=460&u=d32b9be03e9cd0a339e87ecb70cd573a554d62df&v=4"} DevName={"Tito Rivera"} DevFact={"Aspiring full-stack web developer currently attending UCLA's coding boot camp."} EmailDev={"mailto:titorivera0707@gmail.com"} DevEmail={"titorivera0707@gmail.com"} DevGit={"https://github.com/titorivera0707"}/>
-                                    <DevInfo DevPic={"https://avatars.githubusercontent.com/u/72284343?s=460&u=900f7b4afc45e93392d8ef52791d93978a2c2653&v=4"} DevName={"Kyle Gibson"} DevFact={"I am currently learning full-stack web development at UCLAs coding boot camp program."} EmailDev={"mailto:kyle.gibson22@yahoo.com"} DevEmail={"kyle.gibson22@yahoo.com"} DevGit={"https://github.com/kyle-gibson"}/>
-                        
-                                    </div>
-
-                                    <div className= "row mt-4">
-                                    <DevInfo DevPic={"https://ca.slack-edge.com/T01C8L6GK9Q-U01CJ5GTL4T-799742d52139-512"} DevName={"Javier Caro"} DevFact={"I am currently learning full-stack web development at UCLAs coding boot camp program."} EmailDev={"mailto:Jcaro1993@gmail.com"} DevEmail={"Jcaro1993@gmail.com"} DevGit={"https://github.com/jcaro1993"}/>
-                                    
-                                    </div>
-                                    
-
-                                    </div>
-                                </div>
-                                </div>
+                                <Row>
+                                    <Col size="md-3"></Col>
+                                    <Col size="md-6">
+                                        <DevInfo DevPic={"https://ca.slack-edge.com/T01C8L6GK9Q-U01CJ5GTL4T-799742d52139-512"} DevName={"Javier Caro"} DevFact={"I am currently learning full-stack web development at UCLAs coding boot camp program."} EmailDev={"mailto:Jcaro1993@gmail.com"} DevEmail={"Jcaro1993@gmail.com"} DevGit={"https://github.com/jcaro1993"}/>                                    
+                                    </Col>
+                                    <Col size="md-3"></Col>
+                                </Row>                                   
+                            </div>
                         </div>
-                    </Row>
-                
+                    </div>
+                </div>                                
             </div>
         </div>
         </Container>

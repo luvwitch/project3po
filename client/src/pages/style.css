@@ -33,7 +33,9 @@
     background-color: #f7f7f7;
     padding: 5vh;
     bottom: 0px;
-    width: 100%;
+    margin-left: .9rem;
+    margin-right: -1rem;
+    /* width: 100%; */
     opacity: 1.0
 }
 

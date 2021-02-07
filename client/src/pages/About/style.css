@@ -2,7 +2,8 @@
     max-height: 6rem;
     max-width: 7rem;
     border-radius: 35px;
-    float: center;
+    float: left;
+    margin: 1rem;
   }
 
 
