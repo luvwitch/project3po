@@ -97,6 +97,46 @@ div[data-reactroot] {
     border-radius: 2em;
   }  
 
+  .dark1 {
+    font-size: 3.5em;
+    color: white;
+  }
+
+  .light1 {
+    font-size: 3.5em;
+  }
+
+  .darker1 {
+    position: relative;
+    min-height: auto;
+    margin-top: 3em;
+    color: white;
+  }
+
+  .lighter1 {
+    position: relative;
+    min-height: auto;
+    margin-top: 3em;
+    background-color: rgb(247, 246, 242);
+  }
+
+  .darker2 {
+    margin: 1em;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    border-radius: .8em;
+    padding: 1em;
+  }
+
+  .lighter2 {
+    background-color: white;
+    margin: 1em;
+    font-size: 1.3em;
+    line-height: 1.7em;
+    border-radius: .8em;
+    padding: 1em;
+  }
+
   #newlogin {
     opacity: 1
   }

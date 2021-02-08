@@ -1,8 +1,16 @@
+#img1 {
+    width: 20px;
+    height: auto;
+}
+#row2 {
+    margin-top: 0px;
+}
+
 .cardbody {
     background-image: linear-gradient(white, rgb(26, 126, 233), rgb(26, 126, 233), rgb(26, 126, 233), white);
     color: white;
     border-radius: 20px;
-    width: 50%;
+    width: 100%;
     margin: auto
 }
 

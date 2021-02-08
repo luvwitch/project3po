@@ -23,7 +23,7 @@ function NewHome(props) {
     const newLight = setNewStyle("light")
     clearInterval(newLight)
   }else{
-    const newDark = setNewStyle("dark")
+    const newDark = setNewStyle("darkk")
   clearInterval(newDark)
   }
 }, [isLoggedIn])

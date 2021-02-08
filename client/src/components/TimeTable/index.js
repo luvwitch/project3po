@@ -128,7 +128,7 @@ console.log(deleteEvent);
           onSelectEvent = {event => this.onSelectEvent(event)} 
   
 
-          style={{ height: "75vh", width: "50vw", margin: "auto" }}
+          style={{ height: "65vh", width: "50vw", margin: "auto" }}
 
           onSelectSlot={this.handleSelect}
           handleEventSave={this.handleEventSave}

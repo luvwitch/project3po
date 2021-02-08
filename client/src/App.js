@@ -32,7 +32,7 @@ const lightMode = {
   backgroundPosition: 'center'
 }
 const darkMode = {
-  backgroundColor: 'black',
+  // backgroundColor: 'black',
   backgroundSize: 'cover',
   fontFamily: "'Montserrat', sansSerif",
   letterSpacing: '.2rem',
