@@ -27,7 +27,7 @@ const lightMode = {
   backgroundSize: 'cover',
   fontFamily: "'Montserrat', sansSerif",
   letterSpacing: '.2rem',
-  backgroundImage: "url('https://coolbackgrounds.io/images/backgrounds/white/white-unsplash-9d0375d2.jpg')",
+  backgroundImage: "./assets/white.png",
   backgroundAttachment: 'fixed',
   backgroundPosition: 'center'
 }

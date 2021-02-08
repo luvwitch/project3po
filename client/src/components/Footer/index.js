@@ -10,7 +10,7 @@ export default function Footer(){
 
   useEffect(() => {
   if(isLoggedIn) {
-    const newLight = setNewStyle("light")
+    const newLight = setNewStyle("lightt")
     clearInterval(newLight)
     const newerLight = setNewerStyle("lighter")
     clearInterval(newerLight)
