@@ -36,9 +36,7 @@ function NavNew () {
       background-size:cover;
       font-family:'Montserrat', sansSerif;
       letter-spacing:.2rem;
-      background-image:url('https://coolbackgrounds.io/images/backgrounds/white/white-trianglify-b79c7e1f.jpg');
-      background-attachment:fixed;
-      background-position:center;`)
+      background: linear-gradient(90deg, rgba(241,241,241,1) 0%, rgba(205,205,205,1) 50%, rgba(241,241,241,1) 100%);`)
       
     }else{
       body.removeAttribute("style")

@@ -117,7 +117,6 @@ div[data-reactroot] {
     position: relative;
     min-height: auto;
     margin-top: 3em;
-    background-color: rgb(247, 246, 242);
   }
 
   .darker2 {
@@ -129,7 +128,6 @@ div[data-reactroot] {
   }
 
   .lighter2 {
-    background-color: white;
     margin: 1em;
     font-size: 1.3em;
     line-height: 1.7em;

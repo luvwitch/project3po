@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useGoogleLogin, useGoogleLogout } from 'react-google-login';
 
 import { refreshTokenSetup } from '../utils/refreshToken';
@@ -16,10 +16,15 @@ const clientId =
       alert(
         `Login success! Welcome ${localStorage.getItem('user')}!`
       )
+      refreshWindow()
     }
   }
 
-  const onSuccess = (res) => {
+  // useEffect(()=> {
+  //   window.location.reload()
+  // }, [loginState])
+
+  const onSuccess = async (res) => {
     setLoginState({...loginState, 
       login: loginState.login=true});
     localStorage.setItem('user', res.profileObj.name)
