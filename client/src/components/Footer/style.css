@@ -3,7 +3,6 @@
     position: relative;
     left: 0;
     width: 100%;
-    color: black;
     text-align: center;   
     margin-top: 0px;
     margin-bottom: 0px;
@@ -19,9 +18,13 @@
     margin-top: 0px;
     margin-bottom: 0px;
   } */
+  #darkk {
+    color: white;
+  }
 
 .footerText{
   font-size: 20px;
+  background-color: transparent;
 }
 .footerText:hover{
   color: white;

@@ -94,9 +94,9 @@ function Weather(props) {
 
         return(
                 <div>
-          <div className="cardbody col-6">
-              <h3>Today's Forecast</h3>
-            <div className="row">
+          <div className="cardbody col-10">
+              <h5>Today's Forecast</h5>
+            <div className="row" id="row2">
                 <div className="col-4">
                     Now: {description}
                 </div>
@@ -109,15 +109,15 @@ function Weather(props) {
             </div>
             <div className="icon">
                 {icon}<br/>
-                <img src={iconNew}></img>
+                <img id="img1" src={iconNew}></img>
             </div>
 
           </div>
           <br/>
 
-          <div className="cardbody col-6">
-              <h4>Tomorrow's Forecast</h4>
-            <div className="row">
+          <div className="cardbody col-10">
+              <h5>Tomorrow's Forecast</h5>
+            <div className="row" id="row2">
                 <div className="col-4">
                     Humidity {humidity}%
                 </div>
@@ -130,7 +130,7 @@ function Weather(props) {
             </div>
             <div className="icon">
                 {tomorrowIcon}<br/>
-                <img src={tomorrowIconNew}></img>
+                <img id="img1" src={tomorrowIconNew}></img>
             </div>
 
           </div>
