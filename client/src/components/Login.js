@@ -12,7 +12,7 @@ const clientId =
   });  
   
   const loginAlert=()=>{
-    if ( localStorage.getItem('login') === !localStorage.getItem('login') ){
+    if ( localStorage.getItem('login') === true ){
       alert(
         `Login success! Welcome ${localStorage.getItem('user')}!`
       )
@@ -31,7 +31,8 @@ const clientId =
     localStorage.setItem('email', res.profileObj.email)
     console.log('Login Success: currentUser:', res.profileObj);
     loginAlert();
-    localStorage.setItem('login', true);     
+    localStorage.setItem('login', true);
+    alert(`Login success! Welcome ${localStorage.getItem('user')}!`)
     refreshTokenSetup(res);
   };
 
@@ -53,6 +54,7 @@ const clientId =
     localStorage.setItem('login', false);    
     console.log('Logged out Success');
     alert('Logged out Successfully ✌!');
+    refreshWindow()
     
   };
 
