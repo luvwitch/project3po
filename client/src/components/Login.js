@@ -33,7 +33,7 @@ const clientId =
     console.log('Login Success: currentUser:', res.profileObj);
     loginAlert();
     localStorage.setItem('login', true);
-    alert(`Login success! Welcome ${localStorage.getItem('user')}!`)
+    console.log(`Login success! Welcome ${localStorage.getItem('user')}!`)
     refreshTokenSetup(res);
   };
 
