@@ -6,6 +6,7 @@ import {Container} from "./components/Grid";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import TodoPage from "./pages/TodoPage";
+import NewHome from "./pages/NewHome";
 
 function App() {
   const [newStyle, setNewStyle] = useState({})
@@ -47,7 +48,8 @@ const darkMode = {
       <div className="mainstyle">
         <Nav />
         <Switch>
-            <Route exact path="/" component={Home} />           
+            <Route exact path="/" component={Home} />
+            <Route path="/welcome" component={NewHome} />           
             <Route path="/about" component={About} />  
             <Route path="/reminders" component={TodoPage} />  
         </Switch>

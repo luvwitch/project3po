@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useGoogleLogin, useGoogleLogout } from 'react-google-login';
+import { Link } from 'react-router-dom';
 
 import { refreshTokenSetup } from '../utils/refreshToken';
  
@@ -74,13 +75,13 @@ const clientId =
     if (loginState.login === true){
         return (
           <button onClick={ signOut } className="logbutton" id="newlogin">      
-            <span className="buttonText">Logout</span>
+            <span className="buttonText"><Link to="/">Logout</Link></span>
           </button>
         );
     } else {
       return (
         <button onClick={signIn} className="logbutton" id="newlogin">
-          <span className="buttonText">Login</span>
+          <span className="buttonText"><Link to="/welcome">Login</Link></span>
         </button>
       )
     }
